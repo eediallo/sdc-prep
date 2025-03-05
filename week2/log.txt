@@ -1,0 +1,11 @@
+cat: hello: No such file or directory
+Command 'kdir' not found, did you mean:
+  command 'dir' from deb coreutils (9.4-2ubuntu2)
+  command 'cdir' from deb cdtool (2.1.8-release-8)
+  command 'mkdir' from deb coreutils (9.4-2ubuntu2)
+  command 'vdir' from deb coreutils (9.4-2ubuntu2)
+  command 'kdig' from deb knot-dnsutils (3.3.3-1)
+  command 'mdir' from deb mtools (4.0.43-1)
+  command 'hdir' from deb hfsutils (3.2.6-15build2)
+  command 'ddir' from deb ddir (2019.0505-4)
+Try: sudo apt install <deb name>

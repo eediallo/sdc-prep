@@ -1,0 +1,2 @@
+jq -r '[.[].score] | max' players.json
+190

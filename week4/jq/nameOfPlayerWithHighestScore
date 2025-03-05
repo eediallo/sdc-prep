@@ -1,0 +1,2 @@
+Aleks
+jq -r 'max_by(.score) | .name' players.json

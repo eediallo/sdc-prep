@@ -1,0 +1,2 @@
+jq -r '.[-1].name' players.json
+Fatima

@@ -1,0 +1,11 @@
+Dog
+Cat
+Bear
+Lion
+Cow
+Horse
+Penda
+Dog
+Cat
+Lion
+Penda

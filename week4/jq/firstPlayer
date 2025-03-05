@@ -1,0 +1,2 @@
+Daniel
+jq -r '.[0].name' players.json
