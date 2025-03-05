@@ -2,12 +2,9 @@
 content = "This is a list of words"
 char = 'i'
 
-TODO = []
+def includesChar(word):
+    return char in word
 
-for word in content.split(' '):
-    if char in word:
-        TODO.append(word)
+filtered = filter(includesChar, content.split(' '))
 
-filtered = TODO
-
-print(filtered)
+print(list(filtered))
