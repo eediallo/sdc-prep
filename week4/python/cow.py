@@ -2,4 +2,6 @@ import cowsay
 
 import sys
 
-cowsay.cow(' '.join(sys.argv[1:]))
+args = sys.argv[1:]
+
+cowsay.cow(' '.join(args))
