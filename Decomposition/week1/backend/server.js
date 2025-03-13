@@ -23,7 +23,6 @@ app.get("/", (req, res) => {
     console.error('Request received from the client.')
   const quote = randomQuote();
   const quoteString = JSON.stringify(quote);
-  console.log(quoteString, '===>quote string');
   res.json(quoteString);
 });
 
@@ -32,7 +31,6 @@ app.post("/", (req, res) => {
   req.on("data", chunk => bodyBytes.push(...chunk));
   req.on("end", () => {
     const bodyString = String.fromCharCode(...bodyBytes);
-    console.log(bodyString, 'body string =====>')
     let body;
     try {
       body = JSON.parse(bodyString);
