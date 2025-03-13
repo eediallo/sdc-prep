@@ -22,7 +22,9 @@ function randomQuote() {
 app.get("/", (req, res) => {
     console.error('Request received from the client.')
   const quote = randomQuote();
-  res.send(`"${quote.quote}" -${quote.author}`);
+  const quoteString = JSON.stringify(quote);
+  console.log(quoteString, '===>quote string');
+  res.json(quoteString);
 });
 
 app.post("/", (req, res) => {
