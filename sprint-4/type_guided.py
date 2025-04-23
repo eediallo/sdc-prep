@@ -40,4 +40,3 @@ for person in people:
     possible_laptops = find_possible_laptops(laptops, person)
     for laptop in possible_laptops:
         print(f'{person.name} prefers {laptop.operating_system} most of all, and then {person.preferred_operating_systems[1]}, but will not use {person.preferred_operating_systems[len(person.preferred_operating_systems) -1]}')
-    # print(f"{person.name} prefers: {possible_laptops[0].operating_system}")
